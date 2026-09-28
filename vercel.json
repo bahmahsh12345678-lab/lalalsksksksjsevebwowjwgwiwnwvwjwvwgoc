@@ -8,10 +8,5 @@
     { "src": "/setwebhook", "dest": "webhook.py" },
     { "src": "/resetwebhook", "dest": "webhook.py" },
     { "src": "/(.*)", "dest": "webhook.py" }
-  ],
-  "functions": {
-    "webhook.py": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
